@@ -7,29 +7,11 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Start.unity
-    guid: 2864787b9bd001043bf5fc583c9491b2
+    guid: 83b19c567a1dd6642b455b704dfb712d
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/mainMenu.unity
+    guid: 555eb714a3e37fc4ca92dd68d0df2813
   - enabled: 1
-    path: Assets/Scenes/Options.unity
-    guid: 803aea0aa51818a45b3254e5acd12356
-  - enabled: 1
-    path: Assets/Scenes/Credits.unity
-    guid: 484f0a655e15f2a43a007e0171b242c4
-  - enabled: 1
-    path: Assets/Scenes/LevelSelect.unity
-    guid: 116b063f31f755f44a9a3470582f5a5f
-  - enabled: 1
-    path: Assets/Scenes/3D 3P/3D THIRD PERSON.unity
-    guid: a86698aefdb075044aae30e6648ff0ec
-  - enabled: 1
-    path: Assets/Scenes/3D TD/3D TOP DOWN.unity
-    guid: 94e2ecca6236e034dac17de93f69c398
-  - enabled: 1
-    path: Assets/Scenes/3D 1P/first map.unity
-    guid: b975fd618954fc44a8833bf4d9714d5a
-  - enabled: 1
-    path: Assets/Scenes/2D/2D.unity
-    guid: 3450a97c274bd8447a056c2df342604d
+    path: Assets/Scenes/Levels/City.unity
+    guid: 36043497db217f348a60cc7d0ac1f12f
   m_configObjects: {}
