@@ -18,7 +18,7 @@ public class pedestrian : MonoBehaviour
         foreach (Transform child in targetsParent.transform){
             targets.Add(child.gameObject);
         }
-        player = GameObject.Find("Default Player");
+        player = GameObject.Find("Car");
         animator = this.transform.GetComponent<Animator>();
     }
 
@@ -29,11 +29,13 @@ public class pedestrian : MonoBehaviour
             int randomNum = Random.Range(0, targets.Count);
             agent.destination = targets[randomNum].transform.position;
         }
-        if(Vector3.Distance(this.transform.position,player.transform.position) < 0.25){
+        if(Vector3.Distance(this.transform.position, player.transform.position) < 1.5f){
             animator.SetBool("run",true);
+            Debug.Log("running");
         }
         else{
             animator.SetBool("run",false);
+            Debug.Log("walking");
         }
     }
 }
