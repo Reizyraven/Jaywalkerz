@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/mainMenu.unity
     guid: 555eb714a3e37fc4ca92dd68d0df2813
   - enabled: 1
-    path: Assets/Scenes/Levels/City.unity
-    guid: 36043497db217f348a60cc7d0ac1f12f
+    path: Assets/Scenes/City 1.unity
+    guid: 12ebce1e4805d83418ac2c886fc36ae3
   m_configObjects: {}

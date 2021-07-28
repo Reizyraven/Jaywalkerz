@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\doNotDestory.cs" />
+     <Compile Include="Assets\Scripts\New Scripts\GameMechanics.cs" />
      <Compile Include="Assets\Scripts\New Scripts\CarController.cs" />
      <Compile Include="Assets\Scripts\loadFirstScene.cs" />
      <Compile Include="Assets\Scripts\spawner.cs" />
@@ -46,15 +47,15 @@
      <Compile Include="Assets\Cars\Scripts\CarsMenu.cs" />
      <Compile Include="Assets\Scripts\mainMenu.cs" />
      <Compile Include="Assets\Cars\Scripts\CarView.cs" />
+     <Compile Include="Assets\Scripts\New Scripts\buildingFunction.cs" />
      <Compile Include="Assets\Scripts\playerLook.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\Scripts\pedestrian.cs" />
      <Compile Include="Assets\Scripts\pauseMenu.cs" />
+     <Compile Include="Assets\Scripts\collisionDetection.cs" />
+     <Compile Include="Assets\Scripts\New Scripts\menuFunctions.cs" />
      <Compile Include="Assets\Scripts\New Scripts\pedestrianSpawn.cs" />
      <Compile Include="Assets\Scripts\globalFunction.cs" />
-     <Compile Include="Assets\Scripts\New Scripts\buildingFunction.cs" />
-     <Compile Include="Assets\Scripts\New Scripts\GameMechanics.cs" />
-     <Compile Include="Assets\Scripts\New Scripts\menuFunctions.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Ladymito\Free_cat\Animations\low_poly_cat_animation_list.txt" />
